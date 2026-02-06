@@ -1,0 +1,174 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Stop XML-RPC Attacks\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-09 19:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.3.24\n"
+"X-Domain: stop-xml-rpc-attacks"
+
+#: stop-xml-rpc-attacks.php:240
+msgid "(Balanced)"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:249
+msgid "(Best Compatibility)"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:231
+msgid "(Maximum Security)"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:310
+msgid "About This Plugin"
+msgstr ""
+
+#. %d: number of additionally blocked methods
+#: stop-xml-rpc-attacks.php:295
+msgid "Additionally blocked (%d):"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:256
+msgid "Advanced Options"
+msgstr ""
+
+#. %d: number of blocked methods
+#: stop-xml-rpc-attacks.php:282
+msgid "Always blocked (%d):"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:216
+msgid "Attack Logging"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:312
+msgid "Author:"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:262
+msgid "Block User Enumeration Methods"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:278
+msgid "Blocked Methods"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Blocks dangerous XML-RPC methods while preserving Jetpack, WooCommerce, and "
+"mobile apps. Choose between full disable, guest-only disable, or selective "
+"blocking."
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:264
+msgid ""
+"Blocks methods that can reveal usernames. Warning: This will break WordPress "
+"mobile apps and some third-party tools."
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:233
+msgid ""
+"Completely disables XML-RPC. Use this if you don't need Jetpack, WooCommerce "
+"mobile apps, or WordPress mobile app."
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:204
+msgid "Current Status"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:242
+msgid ""
+"Disables XML-RPC for non-logged-in users, but allows it for administrators. "
+"Blocks dangerous methods for logged-in users."
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:271
+msgid "Enable Attack Logging"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:180 stop-xml-rpc-attacks.php:231
+msgid "Full Disable"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:181 stop-xml-rpc-attacks.php:240
+msgid "Guest Disable"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://tsw.ovh"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:273
+msgid ""
+"Logs blocked XML-RPC attempts to your debug.log file. Useful for monitoring "
+"attacks."
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:208
+msgid "Methods Blocked"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:215
+msgid "OFF"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:215
+msgid "ON"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:251
+msgid ""
+"Only blocks known dangerous methods. Use this if you need full Jetpack or "
+"WooCommerce functionality."
+msgstr ""
+
+#. Author of the plugin
+msgid "Pascal CESCATO"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:201
+msgid ""
+"Protect your WordPress site from XML-RPC attacks while maintaining "
+"compatibility with essential services."
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:306
+msgid "Save Security Settings"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:212 stop-xml-rpc-attacks.php:225
+msgid "Security Mode"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:182 stop-xml-rpc-attacks.php:249
+msgid "Selective Blocking"
+msgstr ""
+
+#. Name of the plugin
+#: stop-xml-rpc-attacks.php:91
+msgid "Stop XML-RPC Attacks"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:313
+msgid ""
+"This plugin protects your WordPress site from XML-RPC brute force attacks, "
+"DDoS attempts, and reconnaissance probes while maintaining compatibility "
+"with essential services like Jetpack and WooCommerce."
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:311
+msgid "Version:"
+msgstr ""
+
+#: stop-xml-rpc-attacks.php:92
+msgid "XML-RPC Security"
+msgstr ""

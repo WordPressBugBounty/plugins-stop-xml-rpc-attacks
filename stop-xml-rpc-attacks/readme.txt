@@ -1,54 +1,65 @@
-=== stop XML-RPC Attacks ===
+=== Stop XML-RPC Attacks ===
 Contributors: pcescato
-Tags: xml-rpc, pingback, ddos, multicall
-Requires at least: 5.0
-Tested up to: 6.6
+Tags: security, xmlrpc, brute force, ddos, jetpack
+Requires at least: 6.0
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 2.0.0
 License: GPLv3
-License URI: https://www.gnu.org/licenses/gpl.html
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
-Secure your site's XML-RPC by removing some methods, while you can still use XML-RPC.
+Blocks dangerous XML-RPC methods while preserving Jetpack, WooCommerce, and mobile apps compatibility.
 
 == Description ==
 
-Secure your site's XML-RPC by removing some methods, instead of disabling totally XML-RPC, which is needed by some plugins (eg. Jetpack) and some mobile apps.
+Stop XML-RPC Attacks protects your WordPress site from XML-RPC brute force attacks, DDoS attempts, and reconnaissance probes while maintaining compatibility with essential services like Jetpack and WooCommerce.
 
-= Features =
+**Features:**
 
-Removes the following methods from XML-RPC interface.
+* Three security modes: Full Disable, Guest Disable, or Selective Blocking
+* Blocks dangerous methods: system.multicall, pingback.ping, and more
+* Compatible with Jetpack and WooCommerce
+* Optional user enumeration blocking
+* Attack logging for monitoring
+* Zero configuration required - works out of the box
+* Clean, intuitive admin interface
 
-* system.multicall
-* system.listMethods
-* system.getCapabilities
-* pingback.extensions.getPingbacks
-* pingback.ping
-* X-Pingback from HTTP headers
-
-This is not perfect, but it will help prerventing attacks
-
-= Requirements =
-
-* WordPress 5.0 or higher.
-    	
 == Installation ==
 
-* Extract the zip file and just drop the contents in the <code>wp-content/plugins/</code> directory of your WordPress installation or install it directly from your dashboard and then activate the plugin from Plugins page.
-* There's not options page, simply install and activate.
+1. Upload the plugin files to `/wp-content/plugins/stop-xmlrpc-attacks/`
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Go to Settings > XML-RPC Security to configure (optional)
 
 == Frequently Asked Questions ==
 
-= Is there something to do after install? =
+= Will this break Jetpack? =
 
-Yes, just activate it!
+No! The default "Selective Blocking" mode is fully compatible with Jetpack and WooCommerce.
 
-= I already have a security plugin, do I need this plugin too? =
+= What's the difference between the security modes? =
 
-It depends on your security plugin. Some secure XML-RPC, some just allow you to enable or disable it, some can stop attacks as *Stop XML-RPC Attacks* does. So you may have to read your security plugin FAQ / doc.
+* **Full Disable**: Maximum security, disables XML-RPC completely
+* **Guest Disable**: Balanced approach, only allows XML-RPC for logged-in users
+* **Selective Blocking**: Best compatibility, only blocks dangerous methods
 
-  
+= How do I enable logging? =
+
+Go to Settings > XML-RPC Security and check "Enable Attack Logging". Logs will be written to your debug.log file when WP_DEBUG is enabled.
+
 == Changelog ==
 
-= 1.0 =
+= 2.0.0 =
+* Added admin interface with visual settings
+* Three security modes to choose from
+* Optional attack logging
+* Improved code quality and security
+* Full internationalization support
 
+= 1.0.1 =
 * Initial release
+* Basic blocking of dangerous methods
+
+== Upgrade Notice ==
+
+= 2.0.0 =
+Major update with admin interface.
